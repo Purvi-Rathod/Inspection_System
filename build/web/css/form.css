@@ -1,0 +1,84 @@
+/* 
+    Author     : purvi
+*/
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f3f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    max-width: 720px;
+    margin: 40px auto;
+    padding: 30px 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    text-align: center;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: 600;
+    color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+    transform: scale(1.1);
+}
+
+input[type="submit"] {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #001d3d;
+}
+
+textarea {
+    resize: vertical;
+}
+
+#dynamicChecklist label {
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .form-container {
+        padding: 20px;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+}

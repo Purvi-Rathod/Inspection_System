@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Login | Inspection System</title>
+        <link rel="stylesheet" href="css/login.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="login-container">
+            <div class="login-box">
+                <h2>Login</h2>
+                <form action="LoginController" method="post">
+                    <label for="email">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your Username">
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password">
+
+                    <input type="submit" value="Login">
+                </form>
+
+                <p class="forgot-text">
+                    <a href="#">Forgot Password?</a>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

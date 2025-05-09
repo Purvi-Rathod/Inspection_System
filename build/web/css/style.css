@@ -1,0 +1,100 @@
+/* 
+    Author     : purvi
+*/
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #2c3e50;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.header {
+    background-color: #2e86c1;
+    padding: 30px 20px;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header p {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* Main Section */
+.main-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+}
+
+/* Content Box */
+.container {
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.container h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+.container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Login Button */
+.login-button {
+    margin-top: 30px;
+}
+
+.login-button a {
+    background-color: #2e86c1;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.login-button a:hover {
+    background-color: #1b4f72;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+    .container {
+        padding: 30px 20px;
+    }
+
+    .header h1 {
+        font-size: 22px;
+    }
+
+    .container h2 {
+        font-size: 20px;
+    }
+}
